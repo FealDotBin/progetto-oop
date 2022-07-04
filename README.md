@@ -19,5 +19,5 @@ ogni volta che il contenuto dei rispettivi buffer cambia; in caso di anomalia il
 riavviato alle condizioni di arresto).
 Il programma inoltre prevede di validare o no dei possibili sconti in base ai numeri di panini
 ordinati; in particolare, se l'ordine:
-> supera i 3 panini, si ha uno sconto del 15% sul conto complessivo
-> supera i 9 panini, si ha uno sconto del 20% sul conto complessivo
+<li> supera i 3 panini, si ha uno sconto del 15% sul conto complessivo </li>
+<li> supera i 9 panini, si ha uno sconto del 20% sul conto complessivo </li>
