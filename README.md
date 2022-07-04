@@ -12,11 +12,13 @@ coda delle ordinazioni (gestita appunto secondo una politica FIFO), la quale vie
 cuochi della paninoteca per prelevare le ordinazioni e preparare i rispettivi panini. Quando un cuoco
 termina un ordine, provvede a salvare in una struttura il numero dell’ordinazione, il cognome e il
 conto di quest’ultimo. Infine il cassiere accederà a questa struttura nel momento in cui un cliente
-deve saldare il conto, per poi eliminare dalla struttura il riferimento a quel cliente.
-Altre funzionalità:
+deve saldare il conto, per poi eliminare dalla struttura il riferimento a quel cliente. <br>
+<br>
+Altre funzionalità: <br>
 E' previsto un backup su file di testo del buffer delle ordinazioni prese e delle ordinazioni servite
 ogni volta che il contenuto dei rispettivi buffer cambia; in caso di anomalia il programma può essere
-riavviato alle condizioni di arresto).
+riavviato alle condizioni di arresto).<br>
+<br>
 Il programma inoltre prevede di validare o no dei possibili sconti in base ai numeri di panini
 ordinati; in particolare, se l'ordine:
 <li> supera i 3 panini, si ha uno sconto del 15% sul conto complessivo </li>
